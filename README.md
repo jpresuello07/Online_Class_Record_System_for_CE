@@ -6,6 +6,7 @@ Software Requirements:
 2.XAMPP
 3.Sublime or notepad++
 
-RULES:
-1.Always check guides.txt for references.
-2.Edit on your own branch if have doubt on your work.
+##RULES:
+###1.Always check guides.txt for references.
+###2.Edit on your own branch if have doubt on your work.
+###3.Share Share lng YELLOWPEOPLE! :D
