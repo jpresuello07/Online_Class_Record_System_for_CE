@@ -8,3 +8,4 @@ Software Requirements:
 
 RULES:
 1.Always check guides.txt for references.
+2.Edit on your own branch if have doubt on your work.
