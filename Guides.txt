@@ -8,7 +8,7 @@
 
 --Action Flows--
 
-*Importing the files on github ^note: use only 1 directory for whole project work
+*Importing the files on github ^note: use only 1 directory for whole project make new folder inside xampp/.../htdocs named 'OCRSforCE'
 	1.Open git bash on an empty directory(right click open git bash)
 	2.$git init
 	3.$git remote add origin https://github.com/PUP-CpE5-1-2016-AdvanceJava/Online_Class_Record_System_for_CE.git
