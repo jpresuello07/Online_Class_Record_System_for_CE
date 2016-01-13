@@ -20,5 +20,8 @@
 	3.$git checkout (branchname) ^note: you will now notice changes on your directory it will be empty because branch contains nothing.
 	4.$git pull origin master ^master files will now be copied on your branch
 
+*Updating master or branch
+	1.$git pull origin (branchname or master) ^always git pull before updating a branch to be updated(if not will have error on git push)
+	2.$git status=>$git add .==>git commit -m "(msg)"==>git push
 	(ongoing)
 
