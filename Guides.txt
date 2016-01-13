@@ -4,3 +4,5 @@
   -Github basic actions for collaboration
 2.https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
   -Using git bash see chapters
+3.http://www.codeigniter.com/user_guide/general/welcome.html
+  -Guide about codeigniter... nsa branch 'arian' p codeigniter may  configurations e pde nyo ipull or magedit dun
