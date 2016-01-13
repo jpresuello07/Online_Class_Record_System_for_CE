@@ -1,6 +1,0 @@
---References--
-
-1.https://guides.github.com/activities/hello-world/
-  -Github basic actions for collaboration
-2.https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
-  -Using git bash see chapters
