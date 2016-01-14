@@ -45,10 +45,19 @@ So sa `ID` natin. Kapag magpapangalan laging start ng name ng mga tags ay kung a
   </head>  
 ```
 
-Yung pagkakasunod sunod para maayos lang yung sa code. `Meta` tags na requirement ipalagay ng bootstrap. `Title` tag. Tapos yung sa `link` tag, yung mga plugin muna, yung mga i-import then tsaka pa yung stylesheet natin. 
+Yung pagkakasunod sunod para maayos lang yung sa code. 
 
-Sa `script` tag din pag tatawagin na sila. So nakalagay siya before yung end tag ng `body`, sa baba. Una muna plugin yung jquery ganyan, js ng bootstrap. Tapos tsaka pa yung script file natin.
+1. `Meta` tags na requirement ipalagay ng bootstrap. 
+2. `Title` tag. Tapos yung sa `link` tag, 
+3. `Link` tag 
+..*yung mga plugin muna, 
+..*yung mga i-import  
+..*yung stylesheet natin. 
 
+Sa `script` tag din pag tatawagin na sila. So nakalagay siya before yung end tag ng `body`, sa baba. 
+
+1. Una muna plugin for example yung jquery at yung js ng bootstrap. 
+2. Yung script file natin.
 
 ***
 ##CSS 
@@ -66,10 +75,14 @@ a{color:#808080; text-decoration: none!important;}
 #footer-details i{padding: 0 2px; }
 ```
 
-Ayan. So sa css naman natin. Yung nasa unahan pinaka itaas ay yung `import` sa google font api or kung saan pang import ng kung anong ewan, pero kung mas kumportable kayo na mag import na lang sa html ok lng din. After nun, yung universal na setting natin sa mga tags. So for example yan nga yung `a` tag gusto mo baguhin ng color or yung `body` tag. Tapos yun na yung sa specific na css code natin for different id or kung ano man.
+Ayan. So sa css naman natin. Pagkakasunod sunod.
 
+1. Nasa unahan pinaka itaas ay yung mga `import` natin for example yung sa google font api.
+2. After nun, yung universal na setting natin sa mga tags. So for example yan nga yung `a` tag gusto mo baguhin ng color or yung `body` tag. 
+3. Tapos yung na yung sa specific na css code na natin for different id or kung ano man.
 
-Next, since maayos yung pagpapangalan natin sa id natin. Mas ayos siyang tignan diba. So ayun, yung order din. kung ano yung order sa html ganun din ang order sa css. Kung medyo nakakalito para sa inyo yung pag code ng css ng ganyang style ok na din yung per line yung mga properties pero i-delete na lang after yung spacing para ganyan. Mas madali kasi maghanap pag ganyan. 
+Next, since maayos yung pagpapangalan natin sa id natin. Mas ayos siyang tignan diba? kung ano yung order sa html ganun din ang order sa css. 
+Kung medyo nakakalito yung pag code ng css ng ganyang style ok na din yung per line yung mga properties pero i-delete na lang after yung spacing para ganyan. Mas madali kasi maghanap pag ganyan. 
 
 
 Ayun. Yung sa pagkakaayos ng folders and files sa group ko na i-po-post.
