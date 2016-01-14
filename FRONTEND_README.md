@@ -1,6 +1,6 @@
-#FRONTEND - Naming Convention 
+#FRONTEND
 
-
+##Naming Convention 
 If ever we need to name our `container`, `ID` is the only CSS Selector we'll use instead of class because it is already being used by bootstrap.
 
 ```html
@@ -23,8 +23,10 @@ If ever we need to name our `container`, `ID` is the only CSS Selector we'll use
  
 So sa `ID` natin. Kapag magpapangalan laging start ng name ng mga tags ay kung ano yung main function niya - for this example `footer` then `dash` tapos yung mas specific na purpose niya sa buhay. For example `footer-wrapper` or `footer-details`. A must yung paglalagay ng dash `wrapper` sa mga pinaka-container talaga para madaling maghanap at kilalanin. 
 
+<br>
 ***
 
+<br>
 ##Other chuchu
 
 ```html
@@ -44,7 +46,7 @@ So sa `ID` natin. Kapag magpapangalan laging start ng name ng mga tags ay kung a
         <link type="text/css" href="/stylesheet/stylesheet.css" rel="stylesheet">
   </head>  
 ```
-
+<br>
 Yung pagkakasunod sunod para maayos lang yung sa code. 
 
 1. `Meta` tags na requirement ipalagay ng bootstrap. 
@@ -59,7 +61,9 @@ Sa `script` tag din pag tatawagin na sila. So nakalagay siya before yung end tag
 1. Una muna plugin for example yung jquery at yung js ng bootstrap. 
 2. Yung script file natin.
 
+<br>
 ***
+<br>
 ##CSS 
 
 ```css
@@ -74,7 +78,7 @@ a{color:#808080; text-decoration: none!important;}
 #footer-details span{padding: 0 2px; font-size: 12px; font-family: 'Open Sans', sans-serif;}
 #footer-details i{padding: 0 2px; }
 ```
-
+<br>
 Ayan. So sa css naman natin. Pagkakasunod sunod.
 
 1. Nasa unahan pinaka itaas ay yung mga `import` natin for example yung sa google font api.
