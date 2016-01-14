@@ -51,10 +51,10 @@ Yung pagkakasunod sunod para maayos lang yung sa code.
 
 1. `Meta` tags na requirement ipalagay ng bootstrap. 
 2. `Title` tag. Tapos yung sa `link` tag, 
-3. `Link` tag 
-..*yung mga plugin muna, 
-..*yung mga i-import  
-..*yung stylesheet natin. 
+3. `Link` tag <br> 
+*yung mga plugin muna, <br>
+*yung mga i-import  <br>
+*yung stylesheet natin. 
 
 Sa `script` tag din pag tatawagin na sila. So nakalagay siya before yung end tag ng `body`, sa baba. 
 
