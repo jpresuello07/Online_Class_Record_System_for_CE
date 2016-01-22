@@ -52,7 +52,7 @@ class User_model extends CI_Model
 			$row=$query->row();
 			
 			$userdata = array(
-			'Id'  => $row->id,
+			'Id'  => $row->Id,
 			'Username'    => $row->Username,
 			);
 			$this->session->set_userdata($userdata);
