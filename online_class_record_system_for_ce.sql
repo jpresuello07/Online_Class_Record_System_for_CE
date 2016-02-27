@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2016 at 01:58 PM
+-- Generation Time: Feb 27, 2016 at 03:19 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.5.19
 
@@ -62,17 +62,18 @@ CREATE TABLE IF NOT EXISTS `class` (
   `NumOfStudents` int(11) NOT NULL,
   `Passers` int(11) DEFAULT NULL,
   `YrSem` varchar(100) NOT NULL,
-  `Schedule` varchar(100) NOT NULL
+  `Schedule` varchar(100) NOT NULL,
+  `Filename` varchar(100) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `class`
 --
 
-INSERT INTO `class` (`Id`, `SubjectId`, `ClassBlock`, `ModuleType`, `NumOfStudents`, `Passers`, `YrSem`, `Schedule`) VALUES
-(1, 1, 'BSCOE 2-3', 'Lec', 45, NULL, 'Second Semester 2015-16', 'S/S 07:30AM-10:30AM/10:30AM-01:30PM'),
-(2, 2, 'BSCOE 3-5', 'Lab', 50, NULL, 'Second Semester 2015-16', 'T/F 02:00PM-05:00PM/02:00PM-05:00PM'),
-(3, 3, 'BSCOE 5-1', 'Lec', 36, NULL, 'Second Semester 2015-16', 'W 07:30AM-10:30AM');
+INSERT INTO `class` (`Id`, `SubjectId`, `ClassBlock`, `ModuleType`, `NumOfStudents`, `Passers`, `YrSem`, `Schedule`, `Filename`) VALUES
+(1, 1, 'BSCOE 2-3', 'Lec', 45, NULL, 'Second Semester 2015-16', 'S/S 07:30AM-10:30AM/10:30AM-01:30PM', ''),
+(2, 2, 'BSCOE 3-5', 'Lab', 50, NULL, 'Second Semester 2015-16', 'T/F 02:00PM-05:00PM/02:00PM-05:00PM', ''),
+(3, 3, 'BSCOE 5-1', 'Lec', 36, NULL, 'Second Semester 2015-16', 'W 07:30AM-10:30AM', '');
 
 -- --------------------------------------------------------
 
