@@ -11,8 +11,8 @@ Software Requirements:
 ###2.Edit create ur own branch then push on master for admin to verify.
 ###3.Admins:Bea,Michael,Justine and urs †ruly.
 
-#Note:
-#-Files were up to date
-#-Just Create a folder 'OCRSforCE' on ur 'xampp->htdocs' directory
-#-Open Git Bash in 'OCRSforCE' then git init->git remote add variable (repository path)
-#-Then 'git pull variable master'
+####Note:
+####-Files were up to date
+####-Just Create a folder 'OCRSforCE' on ur 'xampp->htdocs' directory
+####-Open Git Bash in 'OCRSforCE' then git init->git remote add variable (repository path)
+####-Then 'git pull variable master'
