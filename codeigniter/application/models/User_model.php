@@ -107,10 +107,9 @@ class User_model extends CI_Model
 	    			$queryModules = $this->db->get();
 	    			$rowModules = $queryModules->row();
 	    			$modules[$j] = array(
-	    				'Attendance' => $rowModules->Attendance,
-	    				'ClassStanding' => $rowModules->ClassStanding,
 	    				'PracExam	' => $rowModules->PracExam,
-	    				'Project' => $rowModules->Project
+	    				'Project' => $rowModules->Project,
+	    				'Lab_MachineEx' => $rowModules->Lab_MachineEx,
 	    			);
 	    		}
     			$i++;

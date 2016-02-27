@@ -192,6 +192,7 @@ class User extends CI_Controller
 		// need to use json to response to the ajax request
 		header('Content-Type: application/json');
     	echo json_encode($data);
+    	return;
 	}
 
 	public function register()

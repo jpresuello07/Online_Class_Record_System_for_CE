@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2016 at 01:43 AM
+-- Generation Time: Feb 27, 2016 at 01:58 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.5.19
 
@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS `assignment` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -43,7 +44,8 @@ CREATE TABLE IF NOT EXISTS `attendance` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Status` varchar(50) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -82,7 +84,8 @@ CREATE TABLE IF NOT EXISTS `exercises` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -129,6 +132,8 @@ CREATE TABLE IF NOT EXISTS `final_exam` (
 CREATE TABLE IF NOT EXISTS `grades` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
+  `MidTermGrade` int(11) NOT NULL,
+  `FinalGrade` int(11) NOT NULL,
   `TotalGrade` int(11) NOT NULL,
   `GradeRemarks` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -168,18 +173,17 @@ INSERT INTO `grading_system` (`Id`, `1_00`, `1_25`, `1_50`, `1_75`, `2_00`, `2_2
 
 CREATE TABLE IF NOT EXISTS `labmodperc` (
 `Id` tinyint(4) NOT NULL,
-  `Attendance` tinyint(4) NOT NULL,
-  `ClassStanding` tinyint(4) NOT NULL,
   `PracExam` tinyint(4) NOT NULL,
-  `Project` tinyint(4) NOT NULL
+  `Project` tinyint(4) NOT NULL,
+  `Lab_MachineEx` tinyint(4) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `labmodperc`
 --
 
-INSERT INTO `labmodperc` (`Id`, `Attendance`, `ClassStanding`, `PracExam`, `Project`) VALUES
-(1, 10, 35, 25, 30);
+INSERT INTO `labmodperc` (`Id`, `PracExam`, `Project`, `Lab_MachineEx`) VALUES
+(1, 25, 30, 45);
 
 -- --------------------------------------------------------
 
@@ -191,7 +195,8 @@ CREATE TABLE IF NOT EXISTS `lab_act` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -225,7 +230,8 @@ CREATE TABLE IF NOT EXISTS `long_exam` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -279,7 +285,8 @@ CREATE TABLE IF NOT EXISTS `prac_exam` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -292,7 +299,8 @@ CREATE TABLE IF NOT EXISTS `quizzes` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -305,7 +313,8 @@ CREATE TABLE IF NOT EXISTS `seatwork` (
 `Id` int(11) NOT NULL,
   `StudGradeId` int(11) NOT NULL,
   `Score` int(11) NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `Sem` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

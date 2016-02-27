@@ -38,11 +38,10 @@ class Table_model extends CI_Model {
 				$m = $this->db->get();
 				$mod = $m->row();
 				$module = array(
-					'Attendance' => $mod->Attendance,
-					'ClassStanding' => $mod->ClassStanding, 
-					'PracExam' => $mod->PracExam, 
-					'Project' => $mod->Project, 
-				);
+    				'PracExam' => $mod->PracExam,
+    				'Project' => $mod->Project,
+    				'Lab_MachineEx' => $mod->Lab_MachineEx,
+	    		);
 			}
 		
 
