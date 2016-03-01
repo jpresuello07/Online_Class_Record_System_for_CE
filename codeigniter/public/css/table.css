@@ -1,0 +1,26 @@
+hr{
+	margin: 0px;
+	border-top: 2px solid #61605e;
+}
+#TEMPORARY{
+	/*font-family: 'Oswald', sans-serif*/
+	/*font-family: 'Quando', serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 10px;
+	margin-left: 30px;
+	min-height: 650px;
+}
+h4 span{
+	font-family: inherit;
+	font-size: inherit !important;
+}
+#TEMPORARY h2{
+	font-weight: 600;
+}
+#TEMPORARY .row{
+	margin: 0px;
+}
+
+div#main-col-wrapper{
+	background: #fff;
+}
